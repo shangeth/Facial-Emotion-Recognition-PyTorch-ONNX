@@ -37,7 +37,6 @@ def show_random_data(faces, emotions):
   plt.show()
 
 class EmotionDataset(utils.Dataset):
-    
     def __init__(self, X, y, transform=None):
         self.X = X
         self.y = y
