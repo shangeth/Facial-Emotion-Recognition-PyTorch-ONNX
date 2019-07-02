@@ -15,7 +15,7 @@ def load_trained_model(model_path):
 
 def FER_image(img_path):
 
-    model = load_trained_model()
+    model = load_trained_model('./model/face_emotion_detection.pth')
     
     emotion_dict = {0: 'angry', 1: 'disgust', 2: 'fear', 3: 'happy',
                     4: 'sad', 5: 'surprise', 6: 'neutral'}
@@ -28,7 +28,7 @@ def FER_image(img_path):
     img = cv2.imread(img_path)
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
-    face_cascade = cv2.CascadeClassifier('./haarcascade_frontalface_default.xml')
+    face_cascade = cv2.CascadeClassifier('./model/haarcascade_frontalface_default.xml')
     faces = face_cascade.detectMultiScale(img)
     for (x, y, w, h) in faces:
         cv2.rectangle(img, (x,y), (x+w, y+h), (255,0,0), 2)
@@ -44,6 +44,8 @@ def FER_image(img_path):
         cv2.putText(img, pred, (x, y), cv2.FONT_HERSHEY_SIMPLEX, 0.8, (0, 255, 0), 1)
 
     plt.imshow(cv2.cvtColor(img, cv2.COLOR_BGR2RGB))
+    plt.grid(False)
+    plt.axis('off')
     plt.show()
 
 
@@ -58,5 +60,4 @@ if __name__ == "__main__":
         print('The image path does not exists!!')
     else:
         print(args['path'])
-
-    FER_image(args['path'])
+        FER_image(args['path'])
