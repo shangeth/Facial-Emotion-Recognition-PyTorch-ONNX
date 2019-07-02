@@ -42,7 +42,9 @@ def FER_live_cam():
                 log_ps = model.cpu()(X)
                 ps = torch.exp(log_ps)
                 top_p, top_class = ps.topk(1, dim=1)
+                print(top_class)
                 pred = emotion_dict[int(top_class.numpy())]
+            print(pred)
             cv2.putText(frame, pred, (x, y), cv2.FONT_HERSHEY_SIMPLEX, 0.8, (0, 255, 0), 1)
         
         cv2.imshow('frame', frame)
