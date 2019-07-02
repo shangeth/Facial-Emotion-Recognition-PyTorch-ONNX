@@ -34,7 +34,7 @@ def FER_live_cam():
         for (x, y, w, h) in faces:
             cv2.rectangle(frame, (x,y), (x+w, y+h), (255,0,0), 2)
             resize_frame = cv2.resize(gray[y:y + h, x:x + w], (48, 48))
-            X = (resize_frame-128)/256
+            X = resize_frame/256
             X = Image.fromarray((X))
             X = val_transform(X).unsqueeze(0)
             with torch.no_grad():
