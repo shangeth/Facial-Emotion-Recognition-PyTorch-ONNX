@@ -74,6 +74,6 @@ class Face_Emotion_CNN(nn.Module):
 |                	    | Training Set 	| Public Test Set 	| Private Test Set 	|
 |----------------	    |--------------	|-----------------	|------------------	|
 | Accuracy Score 	    |     0.855    	|    0.7945       	|     0.7803       	|
-| F1 (wgt avg)  	    |     0.86     	|    0.80          	|                  	|
-| Precision (wgt avg) |     0.86     	|    0.80          	|                  	|
-| Recall (wgt avg)    |     0.86     	|    0.80          	|                  	|
+| F1 (wgt avg)  	    |     0.86     	|    0.80          	|     0.78         	|
+| Precision (wgt avg) |     0.86     	|    0.80          	|     0.78         	|
+| Recall (wgt avg)    |     0.86     	|    0.80          	|     0.79         	|
