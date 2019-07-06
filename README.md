@@ -17,7 +17,7 @@ The training set consists of 28,709 examples. The public test set used for the l
   Bottom label : FERPLUS
   
   ![](https://raw.githubusercontent.com/Microsoft/FERPlus/master/FER+vsFER.png)
-
+<hr>
 ## Model
 ### 1. Baseline CNN
   ```python
@@ -72,11 +72,11 @@ The training set consists of 28,709 examples. The public test set used for the l
    - Trained model by unfreezing layer4 & layer3 of the CNN network.
 
 ### 3. Attention Model
-
+<hr>
 ## Training
 - Model was trained for 140 epochs
 - Adam optimizer with manual lr scheduling [100 : 1e-3, 120 : 1e-4, 140 : 1e-5]
-
+<hr>
 ## Model Metrics
   ### 1. Baseline CNN
   |                	    | Training Set 	| Public Test Set 	| Private Test Set 	|
@@ -103,7 +103,7 @@ The training set consists of 28,709 examples. The public test set used for the l
   | Precision (wgt avg) |          	|              	|              	|
   | Recall (wgt avg)    |          	|              	|            	|
   
-  
+<hr>  
 ## Deployment
 ```
 git clone https://github.com/shangeth/Facial-Emotion-Recognition-PyTorch-ONNX.git
