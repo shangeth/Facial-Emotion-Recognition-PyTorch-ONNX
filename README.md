@@ -71,9 +71,9 @@ class Face_Emotion_CNN(nn.Module):
 - Adam optimizer with manual lr scheduling [100 : 1e-3, 120 : 1e-4, 140 : 1e-5]
 
 ## Model Metrics
-|                	| Training Set 	| Public Test Set 	| Private Test Set 	|
-|----------------	|--------------	|-----------------	|------------------	|
-| Accuracy Score 	|     0.855    	|    0.7945       	|     0.7803       	|
-| F1             	|     0.86     	|                 	|                  	|
-| Precision      	|     0.86     	|                 	|                  	|
-| Recall         	|     0.86     	|                 	|                  	|
+|                	    | Training Set 	| Public Test Set 	| Private Test Set 	|
+|----------------	    |--------------	|-----------------	|------------------	|
+| Accuracy Score 	    |     0.855    	|    0.7945       	|     0.7803       	|
+| F1 (wgt avg)  	    |     0.86     	|    0.80          	|                  	|
+| Precision (wgt avg) |     0.86     	|    0.80          	|                  	|
+| Recall (wgt avg)    |     0.86     	|    0.80          	|                  	|
