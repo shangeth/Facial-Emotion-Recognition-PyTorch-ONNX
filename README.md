@@ -87,18 +87,18 @@ The training set consists of 28,709 examples. The public test set used for the l
   ### 2. Model Pretrained with Face Data
   |                	    | Training Set 	| Public Test Set 	| Private Test Set 	|
   |----------------	    |--------------	|-----------------	|------------------	|
-  | Accuracy Score 	    |     0.855    	|    0.7945       	|     0.7803       	|
-  | F1 (wgt avg)  	    |     0.86     	|    0.80          	|     0.78         	|
-  | Precision (wgt avg) |     0.86     	|    0.80          	|     0.78         	|
-  | Recall (wgt avg)    |     0.86     	|    0.80          	|     0.79         	|
+  | Accuracy Score 	    |         	|          	|            	|
+  | F1 (wgt avg)  	    |          	|              	|              	|
+  | Precision (wgt avg) |          	|              	|              	|
+  | Recall (wgt avg)    |          	|              	|              	|
   
   ### 3. Attention Model
   |                	    | Training Set 	| Public Test Set 	| Private Test Set 	|
   |----------------	    |--------------	|-----------------	|------------------	|
-  | Accuracy Score 	    |     0.855    	|    0.7945       	|     0.7803       	|
-  | F1 (wgt avg)  	    |     0.86     	|    0.80          	|     0.78         	|
-  | Precision (wgt avg) |     0.86     	|    0.80          	|     0.78         	|
-  | Recall (wgt avg)    |     0.86     	|    0.80          	|     0.79         	|
+  | Accuracy Score 	    |         	|           	|            	|
+  | F1 (wgt avg)  	    |          	|              	|              	|
+  | Precision (wgt avg) |          	|              	|              	|
+  | Recall (wgt avg)    |          	|              	|            	|
   
   
 ## Deployment
