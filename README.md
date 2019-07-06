@@ -77,3 +77,6 @@ class Face_Emotion_CNN(nn.Module):
 | F1 (wgt avg)  	    |     0.86     	|    0.80          	|     0.78         	|
 | Precision (wgt avg) |     0.86     	|    0.80          	|     0.78         	|
 | Recall (wgt avg)    |     0.86     	|    0.80          	|     0.79         	|
+
+## State of the Art
+
