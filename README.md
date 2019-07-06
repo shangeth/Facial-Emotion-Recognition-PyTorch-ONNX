@@ -66,6 +66,7 @@ The training set consists of 28,709 examples. The public test set used for the l
     def count_parameters(self):
       return sum(p.numel() for p in self.parameters() if p.requires_grad)
   ```
+### Pretrained with Face Data
 
 ## Training
 - Model was trained for 140 epochs
