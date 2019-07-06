@@ -47,6 +47,11 @@ class Face_Emotion_CNN(nn.Module):
   def count_parameters(self):
     return sum(p.numel() for p in self.parameters() if p.requires_grad)
 ```
+
+## Training
+- Model was trained for 140 epochs
+- Adam optimizer with manual lr scheduling [100 : 1e-3, 120 : 1e-4, 140 : 1e-5]
+
 ## Model Metrics
 |                	| Training Set 	| Public Test Set 	| Private Test Set 	|
 |----------------	|--------------	|-----------------	|------------------	|
