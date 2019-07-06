@@ -104,7 +104,8 @@ The training set consists of 28,709 examples. The public test set used for the l
 ## Deployment
 ### Image 
 ```
-python PyTorch/FER_image.py --path='PyTorch/test_img/test.jpg'
+cd PyTorch
+python FER_image.py --path='test_img/test.jpg'
 ```
 ![](PyTorch/test_img/test_result.png)
 
