@@ -6,7 +6,7 @@
   Some labels of FER2013 may not be accepted as the prefect label by everyone, so microsoft released an updated labels for the dataset called FERPLUS.
 
 ### [FERPLUS](https://github.com/microsoft/FERPlus)
-  Top label : FER2013
+  Top label : FER2013 \\
   Bottom label : FERPLUS
   ![](https://raw.githubusercontent.com/Microsoft/FERPlus/master/FER+vsFER.png)
 
