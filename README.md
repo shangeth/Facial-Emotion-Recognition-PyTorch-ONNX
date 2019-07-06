@@ -50,7 +50,7 @@ class Face_Emotion_CNN(nn.Module):
 ## Model Metrics
 |                	| Training Set 	| Public Test Set 	| Private Test Set 	|
 |----------------	|--------------	|-----------------	|------------------	|
-| Accuracy Score 	|              	|                 	|                  	|
+| Accuracy Score 	|    85.5%     	|    79.45%         	|     78.03%       	|
 | F1             	|              	|                 	|                  	|
 | Precision      	|              	|                 	|                  	|
 | Recall         	|              	|                 	|                  	|
