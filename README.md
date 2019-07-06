@@ -99,5 +99,14 @@ The training set consists of 28,709 examples. The public test set used for the l
   | F1 (wgt avg)  	    |     0.86     	|    0.80          	|     0.78         	|
   | Precision (wgt avg) |     0.86     	|    0.80          	|     0.78         	|
   | Recall (wgt avg)    |     0.86     	|    0.80          	|     0.79         	|
+  
+  
+## Deployment
+### Image 
+
+### Live Cam(OpenCV)
+
+### ONNX
+The PyTorch Model is converted to a Tensorflow graph with ONNX and it is deployed with Tensorflow.js as a JavaScript Application.
 
 
