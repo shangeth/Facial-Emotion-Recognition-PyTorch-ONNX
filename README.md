@@ -75,12 +75,13 @@ The training set consists of 28,709 examples. The public test set used for the l
 - Adam optimizer with manual lr scheduling [100 : 1e-3, 120 : 1e-4, 140 : 1e-5]
 
 ## Model Metrics
-|                	    | Training Set 	| Public Test Set 	| Private Test Set 	|
-|----------------	    |--------------	|-----------------	|------------------	|
-| Accuracy Score 	    |     0.855    	|    0.7945       	|     0.7803       	|
-| F1 (wgt avg)  	    |     0.86     	|    0.80          	|     0.78         	|
-| Precision (wgt avg) |     0.86     	|    0.80          	|     0.78         	|
-| Recall (wgt avg)    |     0.86     	|    0.80          	|     0.79         	|
+  ### Baseline CNN
+    |                	    | Training Set 	| Public Test Set 	| Private Test Set 	|
+    |----------------	    |--------------	|-----------------	|------------------	|
+    | Accuracy Score 	    |     0.855    	|    0.7945       	|     0.7803       	|
+    | F1 (wgt avg)  	    |     0.86     	|    0.80          	|     0.78         	|
+    | Precision (wgt avg) |     0.86     	|    0.80          	|     0.78         	|
+    | Recall (wgt avg)    |     0.86     	|    0.80          	|     0.79         	|
 
 
 
