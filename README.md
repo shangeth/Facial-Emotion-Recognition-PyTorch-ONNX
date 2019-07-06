@@ -2,6 +2,10 @@
 
 ## Dataset
 ### [FER2013](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data)
+```
+The data consists of 48x48 pixel grayscale images of faces. The faces have been automatically registered so that the face is more or less centered and occupies about the same amount of space in each image. The task is to categorize each face based on the emotion shown in the facial expression in to one of seven categories (0=Angry, 1=Disgust, 2=Fear, 3=Happy, 4=Sad, 5=Surprise, 6=Neutral).
+The training set consists of 28,709 examples. The public test set used for the leaderboard consists of 3,589 examples. The final test set, which was used to determine the winner of the competition, consists of another 3,589 examples.
+```
   ![](https://miro.medium.com/max/1200/1*slyZ64ftG12VU4VTEmSfBQ.png)
   
   Some labels of FER2013 may not be accepted as the prefect label by everyone, so microsoft released an updated [labels](https://raw.githubusercontent.com/microsoft/FERPlus/master/fer2013new.csv) for the dataset called FERPLUS.
