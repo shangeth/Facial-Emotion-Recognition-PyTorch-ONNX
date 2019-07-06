@@ -102,6 +102,9 @@ The training set consists of 28,709 examples. The public test set used for the l
   
   
 ## Deployment
+```
+git clone https://github.com/shangeth/Facial-Emotion-Recognition-PyTorch-ONNX.git
+```
 ### Image 
 ```
 cd PyTorch
@@ -110,6 +113,10 @@ python FER_image.py --path='test_img/test.jpg'
 ![](PyTorch/test_img/test_result.png)
 
 ### Live Cam(OpenCV)
+```
+cd PyTorch
+python FER_live_cam.py 
+```
 
 ### ONNX
 The PyTorch Model is converted to a Tensorflow graph with ONNX and it is deployed with Tensorflow.js as a JavaScript Application.
