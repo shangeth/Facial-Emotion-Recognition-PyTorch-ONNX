@@ -4,7 +4,7 @@
 ### [FER2013](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data)
   ![](https://miro.medium.com/max/1200/1*slyZ64ftG12VU4VTEmSfBQ.png)
   
-  Some labels of FER2013 may not be accepted as the prefect label by everyone, so microsoft released an updated labels for the dataset called FERPLUS.
+  Some labels of FER2013 may not be accepted as the prefect label by everyone, so microsoft released an updated [labels](https://raw.githubusercontent.com/microsoft/FERPlus/master/fer2013new.csv) for the dataset called FERPLUS.
 
 ### [FERPLUS](https://github.com/microsoft/FERPlus)
   Top label : FER2013 </br>
