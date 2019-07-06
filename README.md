@@ -67,6 +67,9 @@ The training set consists of 28,709 examples. The public test set used for the l
       return sum(p.numel() for p in self.parameters() if p.requires_grad)
   ```
 ### 2. Model Pretrained with Face Data
+   - SENET Pretrained with [VGG Face Dataset](https://www.robots.ox.ac.uk/~vgg/data/vgg_face2/)
+   - Finetuned the classifier for this task
+   - Trained model by unfreezing layer4 & layer3 of the CNN network.
 
 ### 3. Attention Model
 
