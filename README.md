@@ -78,9 +78,18 @@ The training set consists of 28,709 examples. The public test set used for the l
 <hr>
 
 ## Training
-- Model was trained for 140 epochs
-- Adam optimizer with manual lr scheduling [100 : 1e-3, 120 : 1e-4, 140 : 1e-5]
-
+  ### 1. Baseline CNN
+   - Model was trained for 140 epochs
+   - Adam optimizer with manual lr scheduling [100 : 1e-3, 120 : 1e-4, 140 : 1e-5]
+  
+  ### 2. Model Pretrained with Face Data
+   - Adam lr=1e-3 for 20 epoch, gradient only for classifier
+   - Adam lr=1e-4 for 20 epoch, unfreezed layer 4
+   - Adam lr=1e-5 for 20 epoch, unfreezed layer 3
+   - Adam lr=1e-6 for 20 epoch, unfreezed layer 2
+  
+  ### 3.Attention Model
+   Will Update
 <hr>
 
 ## Model Metrics
