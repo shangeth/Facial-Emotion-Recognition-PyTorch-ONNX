@@ -102,10 +102,10 @@ The training set consists of 28,709 examples. The public test set used for the l
   | Recall (wgt avg)    |     0.86     	|    0.80          	|     0.79         	|
 
   
-  ### 2. Model Pretrained with Face Data
+  ### 2. Model Pretrained with Face Data (currently training
   |                	    | Training Set 	| Public Test Set 	| Private Test Set 	|
   |----------------	    |--------------	|-----------------	|------------------	|
-  | Accuracy Score 	    |         	|          	|            	|
+  | Accuracy Score 	(checkpoint)    |      0.75   	|     0.73        	|     0.72         	|
   | F1 (wgt avg)  	    |          	|              	|              	|
   | Precision (wgt avg) |          	|              	|              	|
   | Recall (wgt avg)    |          	|              	|              	|
@@ -136,6 +136,7 @@ python FER_image.py --path='test_img/test.jpg'
 cd PyTorch
 python FER_live_cam.py 
 ```
+I couldn't make Disgust and Fear emotion :p .
 ![](PyTorch/img/neutral.png)
 ![](PyTorch/img/happy.png)
 ![](PyTorch/img/surprise.png)
