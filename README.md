@@ -136,7 +136,8 @@ python FER_image.py --path='test_img/test.jpg'
 cd PyTorch
 python FER_live_cam.py 
 ```
-I couldn't make Disgust and Fear emotion :p .
+I couldn't make Disgust and Fear emotion :sweat_smile: .
+
 ![](PyTorch/img/neutral.png)
 ![](PyTorch/img/happy.png)
 ![](PyTorch/img/surprise.png)
