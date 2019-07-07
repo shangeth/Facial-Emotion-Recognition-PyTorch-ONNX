@@ -136,7 +136,11 @@ python FER_image.py --path='test_img/test.jpg'
 cd PyTorch
 python FER_live_cam.py 
 ```
-
+![](PyTorch/img/neutral.png)
+![](PyTorch/img/happy.png)
+![](PyTorch/img/surprise.png)
+![](PyTorch/img/sad.png)
+![](PyTorch/img/anger.png)
 ### ONNX
 The PyTorch Model is converted to a Tensorflow graph with ONNX and it is deployed with Tensorflow.js as a JavaScript Application.
 
